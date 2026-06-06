@@ -1,0 +1,19 @@
+.venv/
+.env
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+
+# Generated outputs
+outputs/*.json
+outputs/*.jsonl
+outputs/*.csv
+
+# Temporary report files
+reports/*.tmp
+
+# OS/editor noise
+.DS_Store
+.vscode/
+.idea/
